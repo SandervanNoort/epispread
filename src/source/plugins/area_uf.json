@@ -1,0 +1,13 @@
+{
+  "name": "area_uf",
+  "snippets": ["uf", "area"],
+  "files": {
+    "data": "area_uf.csv"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 1000000
+    }
+  }
+}

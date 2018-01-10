@@ -1,0 +1,13 @@
+heroku login
+git init
+edit .gitignore
+git add .
+git commit -m 'initial'
+heroku git:remote -a <PROJECT>
+heroku logs --tail
+git push heroku master
+  - git run bash
+
+package.json:
+  start: node server.js
+  postinstall: =build

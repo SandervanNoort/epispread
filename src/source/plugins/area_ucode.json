@@ -1,0 +1,13 @@
+{
+  "name": "area_ucode",
+  "snippets": ["ucode", "area"],
+  "files": {
+    "data": "area_ucode.csv"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 100000
+    }
+  }
+}

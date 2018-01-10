@@ -1,0 +1,20 @@
+{
+  "name": "dengue_uf_month",
+  "select": {
+    "timestep": "month"
+  },
+  "snippets": ["uf", "dengue"],
+  "files": {
+    "data": "dengue_uf_month.csv"
+  },
+  "rawData": {
+    "barWidth": "month"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 100000,
+      "log": true
+    }
+  }
+}

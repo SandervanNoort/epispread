@@ -1,0 +1,28 @@
+uf,ufcode,state,region,capital,lon,lat
+RO,11,Rondônia,Norte,Porto Velho,-63.9039,-8.76194
+AC,12,Acre,Norte,Rio Branco,-67.81,-9.97472
+AM,13,Amazonas,Norte,Manaus,-60.025,-3.10194
+RR,14,Roraima,Norte,Boa Vista,-60.6733,2.81972
+PA,15,Pará,Norte,Belém,-48.5044,-1.45583
+AP,16,Amapá,Norte,Macapá,-51.0664,0.0388889
+TO,17,Tocantins,Norte,Palmas,-48.3603,-10.2128
+MA,21,Maranhão,Nordeste,São Luís,-44.3028,-2.52972
+PI,22,Piauí,Nordeste,Teresina,-42.8019,-5.08917
+CE,23,Ceará,Nordeste,Fortaleza,-38.5431,-3.71722
+RN,24,Rio Grande do Norte,Nordeste,Natal,-35.2094,-5.795
+PB,25,Paraíba,Nordeste,João Pessoa,-34.8631,-7.115
+PE,26,Pernambuco,Nordeste,Recife,-34.8811,-8.05389
+AL,27,Alagoas,Nordeste,Maceió,-35.7353,-9.66583
+SE,28,Sergipe,Nordeste,Aracaju,-37.0717,-10.9111
+BA,29,Bahia,Nordeste,Salvador,-38.5108,-12.9711
+MG,31,Minas Gerais,Sudeste,Belo Horizonte,-43.9378,-19.9208
+ES,32,Espírito Santo,Sudeste,Vitória,-40.3378,-20.3194
+RJ,33,Rio de Janeiro,Sudeste,Rio de Janeiro,-43.2075,-22.9028
+SP,35,São Paulo,Sudeste,São Paulo,-46.6361,-23.5475
+PR,41,Paraná,Sul,Curitiba,-49.2731,-25.4278
+SC,42,Santa Catarina,Sul,Florianópolis,-48.5492,-27.5967
+RS,43,Rio Grande do Sul,Sul,Porto Alegre,-51.23,-30.0331
+MS,50,Mato Grosso do Sul,Centro-Oeste,Campo Grande,-54.6464,-20.4428
+MT,51,Mato Grosso,Centro-Oeste,Cuiabá,-56.0994,-15.5961
+GO,52,Goiás,Centro-Oeste,Goiânia,-49.2539,-16.6786
+DF,53,Distrito Federal,Centro-Oeste,Brasília,-47.9297,-15.7797

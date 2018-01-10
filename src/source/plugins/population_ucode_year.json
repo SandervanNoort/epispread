@@ -1,0 +1,14 @@
+{
+  "name": "population_ucode_year",
+  "snippets": ["ucode", "population"],
+  "files": {
+    "data": "population_ucode_year.csv"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 5000000,
+      "log": true
+    }
+  }
+}

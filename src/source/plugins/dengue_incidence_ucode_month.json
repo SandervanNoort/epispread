@@ -1,0 +1,24 @@
+{
+  "name": "dengue_incidence_ucode_month",
+  "select": {
+    "timestep": "month"
+  },
+  "snippets": ["ucode", "dengue_incidence"],
+  "files": {
+    "dengue": {
+       "import": "dengue_ucode_month"
+    },
+    "population": {
+       "import": "population_ucode_year"
+    }
+  },
+  "rawData": {
+    "barWidth": "month"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 0.02
+    }
+  }
+}

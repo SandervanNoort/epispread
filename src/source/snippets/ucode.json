@@ -1,0 +1,29 @@
+{
+  "select": {
+    "region": "ucode"
+  },
+  "files": {
+    "topo": "br10.topojson",
+    "ucodes": "ucodes.csv",
+    "ufs": "ufs.csv"
+  },
+  "location": [
+    "let label = data['ucodes'].getValue(location, 'city')",
+    "let ufcode = parseInt(location.substr(0, 2), 10)",
+    "let ufcodes = data['ufs'].getCol('ufcode')",
+    "let index = ufcodes.indexOf(ufcode)",
+    "if (index >= 0) {",
+    "  let state = data['ufs'].rows[index]",
+    "  label += ` (${state})`",
+    "}",
+    "return label"
+  ],
+  "global": {
+    "zoom": {
+      "min": 3,
+      "minUpdate": {
+        "region": "uf"
+      }
+    }
+  }
+}

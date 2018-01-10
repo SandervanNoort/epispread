@@ -1,0 +1,20 @@
+{
+  "select": {
+    "disease": "dengue",
+    "measure": "incidence"
+  },
+  "formula": "dengue / population",
+  "rawData": {
+    "xType": "date"
+  },
+  "labels": {
+    "yLabel": "Dengue incidence",
+    "unit": "cases",
+    "xLabel": "Date",
+    "yFormat": "/100000",
+    "labels": {
+      "measure": "incidence",
+      "disease": "dengue"
+    }
+  }
+}

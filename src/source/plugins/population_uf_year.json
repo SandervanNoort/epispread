@@ -1,0 +1,14 @@
+{
+  "name": "population_uf_year",
+  "snippets": ["uf", "population"],
+  "files": {
+    "data": "population_uf_year.csv"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 100000000,
+      "log": true
+    }
+  }
+}

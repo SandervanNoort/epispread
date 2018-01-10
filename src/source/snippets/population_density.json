@@ -1,0 +1,19 @@
+{
+  "select": {
+    "measure": "population density"
+  },
+  "formula": "population / area",
+  "rawData": {
+    "xType": "date",
+    "barWidth": "year"
+  },
+  "labels": {
+    "yLabel": "Population density",
+    "unit": "inhabitants / km2",
+    "xLabel": "Date",
+    "yFormat": "s",
+    "labels": {
+      "measure": "Population density"
+    }
+  }
+}

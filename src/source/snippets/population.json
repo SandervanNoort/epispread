@@ -1,0 +1,21 @@
+{
+  "select": {
+    "measure": "population size"
+  },
+  "rawData": {
+    "xType": "date",
+    "barWidth": "year"
+  },
+  "labels": {
+    "yLabel": "Population size",
+    "unit": "inhabitants",
+    "xLabel": "Date",
+    "yFormat": "s",
+    "labels": {
+      "measure": "Population size"
+    }
+  },
+  "global": {
+    "minValue": ""
+  }
+}

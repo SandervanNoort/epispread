@@ -1,0 +1,66 @@
+.padded {
+  margin: 15px  ;
+}
+
+.containerSM .col-sm {
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.containerXS .row > .col-sm {
+  width: 100%;
+}
+
+.containerSM .col-sm-3 {
+  flex: 0 0 25%;
+}
+
+.containerSM .col-sm-4 {
+  flex: 0 0 33.3333%;
+}
+
+.containerSM .col-sm-5 {
+  flex: 0 0 41.6667%;
+}
+
+.containerSM .col-sm-5 {
+  flex: 0 0 50%;
+}
+
+.containerXS .row > .col-sm-5 {
+  width: 100%;
+}
+
+.containerSM .row > .col-sm-5 {
+  max-width: 41.6667%;
+}
+
+.containerXS .col-xs-12 {
+  flex: 0 0 100%;
+}
+
+.containerXS .row > .col-xs-12 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.containerXS .q-field-label + .q-field-content {
+  padding-top: 8px;
+}
+
+.containerXS .q-field-floating.q-field-no-label .q-field-margin {
+  margin-top: 12px;
+}
+
+.containerXS .q-field-no-label .q-field-label {
+  display: none;
+}
+
+.containerSM .q-field-floating .q-field-margin {
+  margin-top: 12px;
+}
+
+.containerSM .q-field-label + .q-field-content {
+  padding-top: 0;
+}

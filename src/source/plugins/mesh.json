@@ -1,0 +1,23 @@
+{
+  "name": "mesh",
+  "select": {
+    "measure": "MESH fellows",
+    "noChart": true
+  },
+  "files": {
+    "data": "mesh.csv",
+    "topo": "world.topojson",
+    "world": "world.csv"
+  },
+  "locationF": "return data['world'].getValue(location, 'country')",
+  "labels": {
+    "unit": "fellows",
+    "yLabel": "MESH fellows"
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 10
+    }
+  }
+}

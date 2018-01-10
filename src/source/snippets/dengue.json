@@ -1,0 +1,19 @@
+{
+  "select": {
+    "disease": "dengue",
+    "measure": "cases"
+  },
+  "rawData": {
+    "xType": "date"
+  },
+  "labels": {
+    "yLabel": "Dengue cases",
+    "unit": "cases",
+    "xLabel": "Date",
+    "yFormat": "s",
+    "labels": {
+      "measure": "cases",
+      "disease": "dengue"
+    }
+  }
+}

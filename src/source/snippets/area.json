@@ -1,0 +1,18 @@
+{
+  "select": {
+    "measure": "area",
+    "noChart": true
+  },
+  "rawData": {
+    "xType": "date"
+  },
+  "labels": {
+    "yLabel": "Area",
+    "unit": "km2",
+    "xLabel": "Date",
+    "yFormat": "s",
+    "labels": {
+      "measure": "Area"
+    }
+  }
+}

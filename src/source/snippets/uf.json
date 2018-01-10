@@ -1,0 +1,18 @@
+{
+  "select": {
+    "region": "uf"
+  },
+  "files": {
+    "topo": "br_uf25.topojson",
+    "ufs": "ufs.csv"
+  },
+  "location": "return location + ' (' + data['ufs'].getValue(location, 'state') + ')'",
+  "global": {
+    "zoom": {
+      "max": 3,
+      "maxUpdate": {
+        "region": "ucode"
+      }
+    }
+  }
+}

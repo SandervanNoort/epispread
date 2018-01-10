@@ -1,0 +1,18 @@
+{
+  "name": "population_density_uf_year",
+  "snippets": ["uf", "population_density"],
+  "files": {
+    "population": {
+      "import": "population_uf_year"
+    },
+    "area": {
+      "import": "area_uf"
+    }
+  },
+  "global": {
+    "legend": {
+      "min": 0,
+      "max": 200
+    }
+  }
+}
